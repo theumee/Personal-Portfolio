@@ -38,6 +38,7 @@ h2{
     font-size: 2rem;
 }
 
+
 .home{
     
     background: linear-gradient(rgba(29, 29, 29, 0.5), rgb(54, 54, 54)), url('/images/umer-bg.JPG');
@@ -216,6 +217,8 @@ body {
     padding: 10px 10px 100px 10px; 
     /* height: 30%; */
     width: 405px;
+    max-width: 400px;
+    overflow-x: auto;
     border-radius: 10px;
 }
 
