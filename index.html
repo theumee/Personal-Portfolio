@@ -1,105 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Umer Farooq</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-</head>
-<body>
-    <div class="home grid">
-        <div class="header-class wrapper">
-        
-            <div class="logo">
-                    <h2><a href="#"><strong>U</strong>mer <strong>F</strong>arooq</a></h2>
-                </div>
-                <div class="menu">
-                    <ul class="menu-list">
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-            
-                    </ul>
-                </div>
-        </div>
-        <div class="intro">
-            <h1>Hi, I'm <strong>Umer</strong></h1>
-            <h2>front-end Dev</h2>
-        </div>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body>
+    <div class="header-wrapper">
+      <div class="logo">
+        <h2>
+          <a href="#"><strong>Umer Farooq</strong></a>
+        </h2>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="#About" class="menu-item-tag">About</a>
+          </li>
+          <li class="menu-item">
+            <a href="#Skills" class="menu-item-tag">Skills</a>
+          </li>
+          <li class="menu-item">
+            <a href="#Contact" class="menu-item-tag">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="socials">
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a href="https://linkedin.com/in/theumee" target="_blank"
+              ><img
+                class="nav-social-icon"
+                alt="linkedin"
+                src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+            /></a>
+          </li>
+          <li class="socials-item">
+            <a href="https://github.com/theumee" target="_blank"
+              ><img
+                class="nav-social-icon"
+                alt="github"
+                src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
+            /></a>
+          </li>
+          <li class="socials-item">
+            <a href="https://twitter.com/theum3e" target="_blank"
+              ><img
+                class="nav-social-icon"
+                alt="twitter"
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div id="About"class="about-me">
-        <img class="about-me-img" src="/images/umer.JPG" alt="A picture of Umer">
-        <h2 class="about-me-title">About Me</h2>
-        <p class="about-me-data">
-            I'm a web developer, I love to design websites. I also solve coding problems on different platforms.
-        </p>
+    <div class="intro-wrapper">
+      <div class="intro">
+        <p class="intro-message">Hi, I'm Umer,</p>
+        <p class="intro-desg">Software</p>
+        <p class="intro-desg">Engineer</p>
+        <p class="intro-message">Based in Bangalore.</p>
+      </div>
+      <div class="about-me">
+        <img
+          class="about-me-img"
+          src="/images/myImg.svg"
+          alt="A picture of Umer"
+        />
+      </div>
     </div>
 
     <div id="Skills" class="skills">
-        <h1>My Skills</h1>
-        <div class="skill-row">
-            
-            <p>Java</p>
-            
-            <p>HTML</p>
+      <h1>My Skills</h1>
+      <div class="skill-row">
+        <p>Java</p>
 
-            <div class="java-skill">
-                85%
-            </div>
+        <p>HTML</p>
 
-            <div class="html-skill">
-                88%
-            </div>
-            
-            <p>CSS</p>
-            
-            
-            <p>JavaScript</p>
+        <div class="java-skill">85%</div>
 
-            <div class="css-skill">
-                76%
-            </div>
-            
-            <div class="js-skill">
-                69%
-            </div>
+        <div class="html-skill">88%</div>
 
-            <p>Git</p>
-            <p></p>
-            <div class="git-skill">
-                80%
-            </div>
-        </div>
+        <p>CSS</p>
+
+        <p>JavaScript</p>
+
+        <div class="css-skill">76%</div>
+
+        <div class="js-skill">69%</div>
+
+        <p>Git</p>
+        <p></p>
+        <div class="git-skill">80%</div>
+      </div>
     </div>
-    <div id="Contact"class="contact">
+    <div id="Contact" class="contact">
+      <h1>
+        Get In <strong><em>Touch</em></strong>
+      </h1>
 
-        <h1>Get In <strong><em>Touch</em></strong></h1>
+      <form action="POST" data-netlify="true" class="main-form">
+        <input type="text" id="name" placeholder="Name" required />
 
-        <form action="POST" data-netlify="true"  class="main-form">
-            <input type="text" id="name" placeholder="Name" required>
-            
-            <input type="email" name="" id="email" placeholder="email" required>
-            <br>
-            <input type="text" id="subject" placeholder="subject" required>
-            <br>
-            <input type="text" id="message" placeholder="message" required >
-            <br>
-            
-            <input class="submit"type="submit" value="Submit">
+        <input type="email" name="" id="email" placeholder="email" required />
+        <br />
+        <input type="text" id="subject" placeholder="subject" required />
+        <br />
+        <input type="text" id="message" placeholder="message" required />
+        <br />
 
-        </form>
-
-        <footer>
-            <button class="ref"><a href="https://linkedin.com/in/theum3e">LinkedIn</a></button>
-            <button class="ref"><a href="https://github.com/theumee">Github</a></button>
-            <button class="ref"><a href="https://twitter.com/theum3e">Twitter</a></button>
-            <p class="copyright">©Umer Farooq 2021</p>
-        </footer>
+        <input class="submit" type="submit" value="Submit" />
+      </form>
     </div>
-</body>
+  </body>
 </html>
